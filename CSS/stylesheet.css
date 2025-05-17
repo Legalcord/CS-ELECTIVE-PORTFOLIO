@@ -1,0 +1,156 @@
+*{
+    color: black;
+    
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+hr{
+    background-color: black;
+    height: 2px;
+    
+}
+
+ul{
+    
+    height: 45px;
+    list-style: none;
+    display: flex;
+    margin-right: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    
+    margin-top: 30px;
+    width: 100px;
+    font-size: x-large;
+}
+
+h1{
+    width: 900px;
+}
+
+.ME{
+    
+    position: absolute;
+    max-width: 300px;
+    height: auto;
+    right: 130px;
+    top: 135px;
+    border-radius: 50px;
+    border:solid 2px;
+    border-color: black;
+ 
+}
+.ME2{
+    
+    position: absolute;
+    max-width: 300px;
+    height: auto;
+    top: 835px;
+    left: 130px;
+    border-radius: 50px;
+    border:solid 2px;
+    border-color: white;
+ 
+}
+.download{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    background-color: black;
+    width: 120px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 50px;
+
+}
+.download a{
+    
+    color: white;
+    text-align: 10px;
+    
+}
+.GMAIL{
+    
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+.FB{
+    
+    position: absolute;
+    top: 350px;
+    left: 200px;
+}
+.GIT{
+    
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+
+.text{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bolder;
+    top: 250px;
+    left: 150px;
+}
+.text1{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    
+    top: 210px;
+    left: 150px;
+}
+
+.about{
+    background-color: black;
+    width: 1280;
+    height: 1440;
+}
+
+.About{
+    
+    position: absolute;
+    background-color: black;
+    width: 1350px;
+    height: 720px;
+    top:650px;
+    
+}
+.About p{
+    position: absolute;
+    text-decoration: underline;
+    top: 160px;
+    left: 600px;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Details{
+    position: absolute;
+    font-size: 20px;
+    top: 900px;
+    left:600px;
+    width: 500px;
+}
+.Details p{
+    color: white;
+}
+
