@@ -15,9 +15,10 @@
             <nav>
                 <ul class="sidebar">
                     <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                    <li><a  href="#Home">Home</a></li>
-                    <li><a  href="#About">About</a></li>
-                    <li><a  href="#Skills">Skills</a></li>
+                    <li onclick=hideSidebar()><a  href="#Home">Home</a></li>
+                    <li onclick=hideSidebar()><a  href="#About">About</a></li>
+                    <li onclick=hideSidebar()><a  href="#Skills">Skills</a></li>
+                    <li onclick=hideSidebar()><a  href="#Achievements">Achievements</a></li>
                 </ul>
 
                 <ul>
@@ -25,6 +26,7 @@
                     <li class="hideOnMobile"><a  href="#Home">Home</a></li>
                     <li class="hideOnMobile"><a  href="#About">About</a></li>
                     <li class="hideOnMobile"><a  href="#Skills">Skills</a></li>
+                    <li class="hideOnMobile"><a  href="#Achievements">Achievements</a></li>
                     <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
                 </ul>
                 
@@ -43,7 +45,7 @@
         <div class="Home-details">
             <h1>Hi, I'm Elle Vincent</h1>
             <h2>I am a computer science student</h2>
-            <p>Currently studying in the program of Bachelor of Science in Computer Science at STI West Negros University</p>
+            <p>Currently studying in the program of Bachelor of Science in Computer Science at STI West Negros University. </p>
 
             <img src="facebook.png" alt="">
             <img src="github.png" alt="">
@@ -89,12 +91,12 @@
     </div>
 </Section>
 
-<h2 id="About"class="heading2">About Me</h2>
+<h2 id="About"class="heading2">My Hobbies</h2>
 <Section class="About-container" >
 
     <div class="about-detail">
         <div class="label">
-            <h2>Musician</h2>
+            <h2>Music</h2>
         </div>
         <p>Throughout the years in my life, one hobby that I have never gave up on is playing music. It is my passion and most likely would like to pursue in the future after succeeding in my computer science career.</p>
     </div>
@@ -115,11 +117,41 @@
 
     <div class="about-detail">
         <div class="label">
-            <h2>Watch Movies</h2>
+            <h2>Watching Movies</h2>
         </div>
         <p>Watching movies every weekends is my way to pass the time when I'm not busy. Movies like Good Will Hunting, Whiplash, The lord of the Rings are one of my favorite movies.</p>
 </Section>
 
-    
+<h2 id="Achievement"class="heading3">My Achievements</h2>
+<Section class="Achievement-container" id="Achievements" >
+
+    <div class="achievement-detail">
+        <div class="label">
+            <h2>Dean's Lister</h2>
+        </div>
+        <p>Throughout the years in my life, one hobby that I have never gave up on is playing music. It is my passion and most likely would like to pursue in the future after succeeding in my computer science career.</p>
+    </div>
+
+    <div class="achievement-detail">
+        <div class="label">
+            <h2>With Honors</h2>
+        </div>
+        <p>I have found my love on the game of chess in my higschool, I play regularly since it enhances my thinking skills and what motivates me to practice the game is the upcoming kasadyahan since I would like to participate in the event in the sports category.</p>
+    </div>
+
+    <div class="achievement-detail">
+        <div class="label">
+            <h2>With Honors</h2>
+        </div>
+        <p>I fell in love with video games since I was a kid, my father introduced me to video games and it is the reason why I took computer science as my degree in college because I want to be able to make my own video game in the future.</p>
+    </div>
+
+    <div class="achievement-detail">
+        <div class="label">
+            <h2>PSG Board Member for 2 years</h2>
+        </div>
+        <p>Watching movies every weekends is my way to pass the time when I'm not busy. Movies like Good Will Hunting, Whiplash, The lord of the Rings are one of my favorite movies.</p>
+    </div>
+</Section>
 </body>
 </html>

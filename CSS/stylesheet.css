@@ -16,6 +16,9 @@ body{
     background-color: #839bf2;
     min-height: 100vh;
 }
+footer li{
+    list-style: none;
+}
 
 .sidebar{
     position: fixed;
@@ -119,14 +122,6 @@ nav a{
     grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
     gap: 1rem;
     
-    
-}
-
-
-.skills-container .skills-box {
-    padding: 2.5rem 2rem;
-    border-radius: 1rem;
-    transition: .5s;
 }
 
 .Skill-container .skill-detail{
@@ -139,18 +134,32 @@ nav a{
     
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
-    gap: 2rem;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 30px;
+    gap: 1rem;
+    
     
 }
 
-.about-detail{
+.About-container .about-detail{
     background-color: #e36868;
-    padding: 5rem 5rem;
-    border-radius: 20px;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
 }
+
+.Achievement-container{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 1rem;
+    
+}
+
+.Achievement-container .achievement-detail{
+    background-color: #e36868;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+}
+
+
 .heading{
     text-align: center;
     font-size: 2rem;
@@ -158,6 +167,20 @@ nav a{
     padding-top: 100px;
 }
 .heading2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 100px;
+}
+
+.heading3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 100px;
+}
+
+.heading4{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -178,6 +201,8 @@ nav a{
 .menu-button{
     display: none;
 }
+
+
 
 @media(max-width:800px){
 
