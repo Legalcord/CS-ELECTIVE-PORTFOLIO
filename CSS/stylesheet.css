@@ -202,3 +202,69 @@ nav a{
     }
 }
 
+@media screen and (max-width: 500px){
+
+    .skill-detail{
+        background-color: #99eea7;
+        padding: 5rem 5rem;
+        border-radius: 20px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .Home{
+        padding: 2rem 0rem 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: column-reverse;
+    }
+    .Image-container{
+       margin: auto;
+    }
+    
+    .Image-container2{
+        margin: auto;
+     }
+    .Details-container{
+        margin: auto;
+        text-align: center;
+    }
+
+    .skill-detail{
+        padding-right: 40px;
+    }
+    .Skill-container{
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+        gap: 1rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        
+    }
+    .About-container{
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+        gap: 2rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    html{
+        font-size: 50%;
+    }
+}
