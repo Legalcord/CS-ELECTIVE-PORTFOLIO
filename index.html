@@ -5,23 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="CSS/stylesheet.css">
-    <script defer src="activePage.js"></script>
+    <script defer src="JS/javascript.js"></script>
 </head>
 <body>
 
-    <header>
-            <a class="logo" href="">Portfolio</a>
+   
+            
+
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a  href="#Home">Home</a></li>
+                    <li><a  href="#About">About</a></li>
+                    <li><a  href="#Skills">Skills</a></li>
+                </ul>
+
+                <ul>
+                    <li><a class="logo" href="">Portfolio</a></li>
+                    <li class="hideOnMobile"><a  href="#Home">Home</a></li>
+                    <li class="hideOnMobile"><a  href="#About">About</a></li>
+                    <li class="hideOnMobile"><a  href="#Skills">Skills</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+                
+            </nav>
+
             <nav class="navbar">
-                <a  href="#Home">Home</a>
-                <a  href="#About">About</a>
-                <a  href="#Skills">Skills</a>
+                
             </nav>
             
-    </header>
+    
     
 
 <section class="Home" id="Home">
     <div class="Details-container">
+        
         <div class="Home-details">
             <h1>Hi, I'm Elle Vincent</h1>
             <h2>I am a computer science student</h2>

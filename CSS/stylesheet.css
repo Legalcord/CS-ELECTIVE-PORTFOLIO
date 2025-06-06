@@ -14,26 +14,59 @@ html{
 body{
     color: black;
     background-color: #839bf2;
-}
-header {
-    position: fixed;
-    background-color: #839bf2;
-    width: 100%;
-    display: flex;
-    padding: 1rem;
-    justify-content: space-between;
-    align-content: center;
-    border-bottom: 1px solid black;
+    min-height: 100vh;
 }
 
-.navbar{
-    display: inline-block;
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255,255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
 }
-.navbar a{
+
+.sidebar a{
     color: black;
-    margin-right: 50px;
-    font-size: 20px;
+    width: 100%;
+    padding: 2rem;
 }
+
+nav ul{
+    width:100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+
+
 
 .logo{
     font-size: 30px;
@@ -135,6 +168,29 @@ header {
 
 }
 
+.menu-button{
+    display: none;
+}
+
+@media(max-width:800px){
+
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+@media(max-width:400px){
+
+    .sidebar{
+        width: 100%;
+    }
+}
+
+
+
 
 @media screen and (max-width: 1000px) {
     .Home{
@@ -185,8 +241,48 @@ header {
 
 @media  screen and (max-width: 500px) {
 
-    .Skill-container{
-        margin: auto;
+    .Home{
+        padding: 2rem 0rem 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: column-reverse;
+    }
+    .Image-container{
+       margin: auto;
     }
     
+    .Image-container2{
+        margin: auto;
+     }
+    .Details-container{
+        margin: auto;
+        text-align: center;
+    }
+
+    .skill-detail{
+        padding-right: 40px;
+    }
+    .Skill-container{
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+        gap: 1rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        
+    }
+    .About-container{
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+        gap: 2rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        
+    }
 }
