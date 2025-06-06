@@ -281,6 +281,15 @@ nav a{
         margin-top: 30px;
         
     }
+
+    .Achievement-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+        gap: 2rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 600px) {
