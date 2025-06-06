@@ -41,6 +41,8 @@ body{
 }
 
 nav ul{
+    background-color: #839bf2;
+    position: fixed;
     width:100%;
     list-style: none;
     display: flex;
@@ -114,18 +116,23 @@ nav a{
 .Skill-container{
     
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
     gap: 1rem;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 30px;
+    
     
 }
 
-.skill-detail{
+
+.skills-container .skills-box {
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+    transition: .5s;
+}
+
+.Skill-container .skill-detail{
     background-color: #99eea7;
-    padding: 5rem 5rem;
-    border-radius: 20px;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
 }
 
 .About-container{
@@ -187,6 +194,16 @@ nav a{
     .sidebar{
         width: 100%;
     }
+}
+
+@media screen and (max-width: 500px){
+
+    .skill-detail{
+        background-color: #99eea7;
+        padding: 5rem 5rem;
+        border-radius: 20px;
+    }
+
 }
 
 
