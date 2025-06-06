@@ -34,6 +34,7 @@ footer li{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    border: none;
     
 }
 
@@ -51,6 +52,7 @@ nav ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border-bottom: 2px solid black ;
 }
 
 nav li{
@@ -82,6 +84,7 @@ nav a{
     display: flex;
     margin-right: 200px;
     margin-top: 100px;
+    
 }
 .Image{
     width: 100%;
@@ -128,6 +131,8 @@ nav a{
     background-color: #99eea7;
     padding: 2.5rem 2rem;
     border-radius: 1rem;
+    border: 5px solid black ;
+
 }
 
 .About-container{
@@ -143,6 +148,7 @@ nav a{
     background-color: #e36868;
     padding: 2.5rem 2rem;
     border-radius: 1rem;
+    border: 5px solid black;
 }
 
 .Achievement-container{
@@ -154,9 +160,10 @@ nav a{
 }
 
 .Achievement-container .achievement-detail{
-    background-color: #e36868;
+    background-color: #839bf2;
     padding: 2.5rem 2rem;
     border-radius: 1rem;
+    border: 5px solid black ;
 }
 
 
@@ -260,6 +267,7 @@ nav a{
 
     .skill-detail{
         padding-right: 40px;
+       
     }
     .Skill-container{
     
